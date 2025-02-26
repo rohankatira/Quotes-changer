@@ -1,0 +1,43 @@
+**Documentation for Quotes Changer Project**
+
+---
+
+**Project Overview**
+- The Quotes Changer is a web application that displays random quotes and allows users to change the quote displayed by clicking a button. The application is built using HTML, CSS (Bootstrap), and JavaScript.
+
+---
+
+**File Structure**
+- The project consists of several files, with the main file being `index.html`. Below is a brief description of the key files:
+
+1. **index.html**
+   - Contains the structure of the web page.
+   - Utilizes Bootstrap for styling and layout.
+   - Includes JavaScript for functionality to change quotes.
+
+2. **JavaScript Functionality**
+   - The script defines an array of quote objects, each containing a quote and its author.
+   - The `quote_fun()` function randomly selects a quote from the array and updates the displayed quote and author.
+   - The function is called on page load and set to run every 5 seconds to change the quote automatically.
+
+3. **Bootstrap Integration**
+   - The project uses Bootstrap for responsive design and styling.
+   - Links to Bootstrap CSS and JS are included in the `<head>` and before the closing `<body>` tag, respectively.
+
+---
+
+**Usage Instructions**
+1. Open the deployed link: [Quotes Changer Live Project](https://quotes-changer.vercel.app/).
+2. Click the "Change Quote" button to display a new random quote.
+3. The quote will automatically change every 5 seconds.
+
+---
+
+**Deployment**
+- The project is deployed on Vercel, which allows for easy hosting of static sites.
+- The live link to the deployed project is: [Quotes Changer Live Project](https://quotes-changer.vercel.app/).
+
+---
+
+**Conclusion**
+- The Quotes Changer is a simple yet effective web application that showcases random quotes, providing inspiration and motivation to users. The use of Bootstrap ensures a responsive design, while JavaScript adds interactivity.
